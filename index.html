@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Typing Speed Test</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Typing Speed Test</h1>
+      <p id="sentence"></p>
+      <textarea
+        name="textarea"
+        id="textarea"
+        disabled
+        onpaste="return false;"
+      ></textarea>
+      <button class="btn" id="start-btn">Start</button>
+      <button class="btn" id="done-btn">Done</button>
+      <p id="result"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
